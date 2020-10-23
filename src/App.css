@@ -1,0 +1,102 @@
+html{
+  height:100vh;  
+}
+.body{
+  background-color: grey !important;
+}
+.listmovie{
+  display:flex ;
+  justify-content: space-around ;
+  flex-wrap: wrap;
+}
+.moviecard{
+  display:flex ;
+  flex-direction:column;
+  max-width:350px!important;
+  padding:10px;
+  border:1px solid gray;
+  box-shadow: 5px 6px 8px black;
+  margin:10px;
+}
+
+.img{
+  width:330px;
+  height:200px;
+}
+.des{
+ height:120px;
+  font-size:14px;
+  color:white;
+  margin:0 ;
+ 
+}
+
+.des1{
+  height:20px;
+   font-size:14px;
+   color:white ;
+   margin:0;
+
+ }
+
+.star{
+  margin:12px;
+  font-size:30px;
+  color:white
+}
+.filter{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:5px;
+}
+.title{
+  width:350px;
+  height:40px;
+  font-size:18px;
+  margin:10px;
+}
+.rate{
+  width:350px;
+  height:30px;
+  font-size:18px;
+  margin:5px;
+}
+.buttonAdd{
+  width:100px;
+  height:40px;
+  color:white;
+  background-color: red !important;
+  font-weight:bold;
+  margin-right:40px;
+}
+.flex{
+  display:flex;
+  background-color:black ;
+  justify-content:space-around;
+}
+.border{
+  padding:10px;
+  border:1px solid black;
+}
+.ligne{
+  display:flex;
+  background-color:black;
+  justify-content: space-between;
+  align-items: center;
+}
+.desp{
+  display:flex;
+  align-items: flex-start;
+  margin:10px;
+}
+label{
+  font-weight: bold;
+}
+.centrer{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  max-width:700px;
+  margin:100px auto;
+}
